@@ -1,0 +1,8 @@
+fastapi==0.95.2 # the main web framework
+uvicorn==0.22.0 # the ASGI server to run the app
+requests==2.31.0 # for making HTTP requests to external APIs such as OpenWeatherMap API
+pydantic==1.10.9 # for data validation and settings management
+python-dotenv==1.0.0 # for loading environment variables from a .env file
+sqlalchemy==2.0.19 # for ORM and database interactions
+psycopg2-binary==2.9.6  # For PostgreSQL
+alembic==1.11.1         # For migrations

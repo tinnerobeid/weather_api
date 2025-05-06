@@ -9,3 +9,7 @@ services:
     volumes:
       - ./app:/app  # Hot-reload for development
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+  db:  # Fixed indentation
+    image: postgres:13
+    environment:
+      POSTGRES_PASSWORD: yourpassword
